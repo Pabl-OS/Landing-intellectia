@@ -1,5 +1,5 @@
 .wrapper {
-    width: 100vw;
+    width: 100vw;    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -10,13 +10,13 @@
     min-height: 500px;    
     position: relative;
     margin: 30px;
-    display: flex;        
+    display: flex;            
   }
   
   .slide {
     display: flex;              
     margin: 0 50px;
-    animation: slideshow 8s linear infinite;    
+    animation: slideshow 8s linear infinite;        
   }
 
   .card-header{
@@ -45,7 +45,7 @@
   
   @keyframes slideshow {
     0% { transform: translateX(0);}
-    100% { transform: translateX(-100%);}
+    100% { transform: translateX(-300%);}
   }
   
   .slider::before, .slider::after {
